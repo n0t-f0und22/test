@@ -1,3 +1,1 @@
-# test
-
-A minimal Node.js + Express demo service.
+# LaunchDarkly Node.js Demo
