@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node --env-file-if-exists=.env server.js",
+    "check": "node --check server.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
     "express": "^5.2.1"
   },
   "type": "module",
-  "private": "true"
+  "private": true,
+  "engines": {
+    "node": ">=20.6"
+  }
 }
